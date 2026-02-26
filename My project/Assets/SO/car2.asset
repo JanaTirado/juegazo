@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b5149f266d12db4bb144f92408a47f0, type: 3}
+  m_Name: car2
+  m_EditorClassIdentifier: 
+  speed: 800
+  angle: 10
+  brake: 50
+  carImage: {fileID: 21300000, guid: 7422e7d113653a3448f1ffe92593f535, type: 3}
+  carName: Roli
+  carPrefab: {fileID: 7951837980608395527, guid: 2ba4f5adfeadbed4389e0b563d3c6dd7,
+    type: 3}
