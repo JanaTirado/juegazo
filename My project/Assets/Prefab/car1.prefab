@@ -439,7 +439,7 @@ GameObject:
   - component: {fileID: 1823675992178485374}
   - component: {fileID: 2289690439664692857}
   - component: {fileID: 4255620873233135780}
-  - component: {fileID: -3176704226649425354}
+  - component: {fileID: 288242333996488413}
   m_Layer: 0
   m_Name: car1
   m_TagString: Player
@@ -457,7 +457,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.6859827, y: 0.131, z: -5.5072803}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.71175, y: 0.53463, z: 0.78508}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2406406242357481578}
@@ -480,7 +480,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -551,7 +551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontal: 0
   vertical: 0
---- !u!114 &-3176704226649425354
+--- !u!114 &288242333996488413
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -560,11 +560,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2910742343588694883}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d0ce75c09af9714b892a75b92af59a3, type: 3}
+  m_Script: {fileID: 11500000, guid: b766947c51154a94094348c355da3436, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidas: 3
-  pantallaMuerte: {fileID: 0}
 --- !u!1 &4350101652047467694
 GameObject:
   m_ObjectHideFlags: 0
