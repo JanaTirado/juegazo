@@ -15,7 +15,7 @@ MonoBehaviour:
   speed: 800
   angle: 10
   brake: 50
-  carImage: {fileID: 21300000, guid: 7422e7d113653a3448f1ffe92593f535, type: 3}
-  carName: Roli
+  carImage: {fileID: 21300000, guid: 8ab3135d580770e4ca24888672e58046, type: 3}
+  carName: Sedan Guapeton
   carPrefab: {fileID: 7951837980608395527, guid: 2ba4f5adfeadbed4389e0b563d3c6dd7,
     type: 3}

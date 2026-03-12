@@ -15,7 +15,7 @@ MonoBehaviour:
   speed: 200
   angle: 60
   brake: 800
-  carImage: {fileID: 21300000, guid: 3edac06182200344cbb33ecfb20ff5db, type: 3}
-  carName: Ollie
+  carImage: {fileID: 21300000, guid: 00f97bbfd3ccbdb42b68561e6bc4d50c, type: 3}
+  carName: Francesco
   carPrefab: {fileID: 138465457041628853, guid: b2d49d13568c41649a421b137012391a,
     type: 3}
