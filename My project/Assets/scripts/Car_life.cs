@@ -1,11 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CarLife : MonoBehaviour
 {
     public int vidas = 3;
-    public GameObject pantallaMuerte;
+    private GameObject pantallaMuerte;
+
+    void Start()
+    {
+        pantallaMuerte = GameObject.Find("PantallaMuerte");
+
+        if (pantallaMuerte != null)
+        {
+            pantallaMuerte.SetActive(false);
+        }
+    }
 
     void OnCollisionEnter(Collision collision)
     {
@@ -24,7 +35,17 @@ public class CarLife : MonoBehaviour
 
     void Morir()
     {
-        pantallaMuerte.SetActive(true);
-        Time.timeScale = 0f; // pausa el juego
+        if (pantallaMuerte != null)
+        {
+            pantallaMuerte.SetActive(true);
+        }
+
+        Time.timeScale = 0f;
+    }
+
+    public void ReiniciarJuego()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
